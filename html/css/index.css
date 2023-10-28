@@ -1,0 +1,45 @@
+body {
+    position: relative;
+    background-image: url("https://suca.cc/wp-content/uploads/2023/05/20210709035540860.jpg");
+}
+/*这个给h1描述的css不是我写的，我只为它添加了居中*/
+h1 {
+    background-image: -webkit-linear-gradient(left, #147B96, #E6D205 25%, #147B96 50%, #E6D205 75%, #147B96);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-background-size: 200% 100%;
+    -webkit-animation: maskedAnimation 4s infinite linear;
+    font-size: 40px;
+    text-align: center;
+}
+
+@keyframes maskedAnimation {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: -100% 0;
+    }
+}
+/*我只会写简单的，比如-*/
+h2 {
+    text-align: center;
+    color: rgb(247, 247, 247);
+    position: fixed;
+}
+
+div2 {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    max-height: 110px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30pt;
+}
+
+span {
+    position: fixed;
+    top: 40%;
+}
